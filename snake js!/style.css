@@ -1,0 +1,57 @@
+* {
+  overflow: hidden;
+}
+.gameContainer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.gameBoard {
+  border: 3px solid;
+  /* width: 300px;
+  height: 300px; */
+}
+
+.score {
+  font-size: 50px;
+}
+
+.resetBtn {
+  font-size: 22px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.controlers {
+  width: 350px;
+  display: flex;
+}
+
+.btnC {
+  width: 4rem;
+  height: 4rem;
+  /* background: #000; */
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.btnDown {
+  margin-right: auto;
+}
+
+.btnUp {
+  margin-right: 15px;
+}
+
+.btnRight {
+  margin-left: 15px;
+}
